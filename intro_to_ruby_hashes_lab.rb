@@ -2,23 +2,14 @@ def monopoly
 	monopoly = {
 	  
 	}
+	return monopoly
 end
 
 def monopoly_with_second_tier
   monopoly = {
-    :railroads => {
-      :pieces => 4,
-      :rent_in_dollars => {
-        
-      },
-      :names => {
-        :reading_railroad => {},
-        :pennsylvania_railroad => {},
-        :b_and_o_railroad => {},
-        :shortline => {}
-      }
-    }
+    :railroads => {}
   }
+  return monopoly
 end
 
 def monopoly_with_third_tier
@@ -36,6 +27,7 @@ def monopoly_with_third_tier
       }
     }
   }
+  return monopoly
 end
 
 def monopoly_with_fourth_tier
@@ -64,4 +56,5 @@ def monopoly_with_fourth_tier
       }
     }
   }
+  return monopoly
 end
